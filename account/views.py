@@ -13,3 +13,6 @@ def products(request):
 def contact(request):
     return HttpResponse('Contact us')
 
+def customer(request):
+    return render(request, 'account/customers.html')
+
